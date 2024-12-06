@@ -14,7 +14,7 @@ std::cout<<"L'elemento in cima dopo la funzione pop: "<<Pila.top()<<std::endl;
 
 std::cout<<"La lista è vuota: "<<Pila.isEmpty();<<std::endl;
 
-std::cout<<"La cardinalità è: "Pila.size();<<std::endl;
+std::cout<<"La cardinalità è: "<<Pila.size();<<std::endl;
 
 CodaVettore <int> Coda;
 
