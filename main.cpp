@@ -21,7 +21,7 @@ CodaVettore <int> Coda;
 Coda.enqueue(10);
 Coda.enqueue(20);
 
-std::cout<<"Elemento in cima: "<<Coda.front<<std::endl;
+std::cout<<"Elemento in cima: "<<Coda.front()<<std::endl;
 
 Coda.dequeue();
 std::cout<<"L'elemento in coda dopo la funzione dequeue: "<<Coda.front()<<std::endl;
